@@ -2,7 +2,6 @@
 
 End-to-end pipeline that measures the real-world width and height (mm) of a notebook from a single phone photo.
 
-Built for the XIS AI/CV technical assessment.
 
 ## What it does
 
