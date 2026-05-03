@@ -1,0 +1,19 @@
+# Core
+numpy>=1.26
+opencv-contrib-python>=4.9
+Pillow>=10.0
+matplotlib>=3.8
+tqdm>=4.66
+
+# Training (Mask R-CNN via torchvision)
+# NOTE: torch wheels currently target Python 3.9-3.12. If you are on 3.13/3.14,
+# create a separate Python 3.11 or 3.12 venv for training. See SETUP.md.
+torch>=2.2
+torchvision>=0.17
+
+# Data / eval
+pycocotools>=2.0.7
+scikit-learn>=1.4
+
+# Optional: SAM-assisted labelling (uncomment if used)
+# segment-anything @ git+https://github.com/facebookresearch/segment-anything.git

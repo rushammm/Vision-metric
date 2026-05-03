@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project — keep code, exclude bulk binary outputs
+calibration/images/*.jpg
+calibration/images/*.JPG
+calibration/images/*.jpeg
+calibration/images/*.png
+calibration/images/*.heic
+calibration/undistorted/
+calibration/debug/
+dataset/raw/
+dataset/undistorted/
+models/checkpoints/*.pt
+models/checkpoints/*.pth
+models/runs/
+inference/outputs/
+measurement/outputs/
+*.npz
+!calibration/intrinsics.npz
+
+# Allow the example/report assets
+!docs/figures/
+!calibration/checkerboard.png
