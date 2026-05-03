@@ -1,0 +1,15 @@
+{
+  "n_test_images": 6,
+  "score_threshold": 0.5,
+  "iou_threshold": 0.5,
+  "bbox_mAP": 0.9215,
+  "bbox_mAP50": 1.0,
+  "segm_mAP": 0.9554,
+  "segm_mAP50": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1": 1.0,
+  "tp": 6,
+  "fp": 0,
+  "fn": 0
+}
