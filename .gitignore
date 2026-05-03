@@ -45,3 +45,7 @@ measurement/outputs/
 # Allow the example/report assets
 !docs/figures/
 !calibration/checkerboard.png
+
+# Bundled archives for Colab upload
+splits_small.zip
+train_bundle.zip
